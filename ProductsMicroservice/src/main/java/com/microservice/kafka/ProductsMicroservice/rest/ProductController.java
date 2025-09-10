@@ -18,7 +18,7 @@ import com.microservice.kafka.ProductsMicroservice.service.ProductService;
 public class ProductController {
 
     ProductService productService;
-    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass())
+    private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
     public ProductController(ProductService productService) {
         this.productService = productService;
