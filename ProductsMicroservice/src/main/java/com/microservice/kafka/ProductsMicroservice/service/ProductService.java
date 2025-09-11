@@ -4,6 +4,6 @@ import com.microservice.kafka.ProductsMicroservice.rest.CreateProductRestModel;
 
 public interface ProductService {
 
-    String createProduct(CreateProductRestModel productRestModel);
+    String createProduct(CreateProductRestModel productRestModel) throws Exception;
 
 }
